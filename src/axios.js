@@ -7,7 +7,6 @@ let test_axios = axios.create({
     }
 });
 
-
 export function getProductByCategoryId(categoryId) {
     return test_axios.get(`product/category/${categoryId}`);
 }
