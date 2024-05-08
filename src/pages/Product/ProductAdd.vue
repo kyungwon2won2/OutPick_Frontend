@@ -9,6 +9,7 @@
         <label for="description">설명</label>
         <textarea id="description" v-model="product.content"></textarea>
       </div>
+      
       <div class="form-group">
         <label for="category">카테고리</label>
         <input id="category" v-model="product.categoryId" type="text">
