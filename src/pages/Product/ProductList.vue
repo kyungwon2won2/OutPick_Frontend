@@ -137,6 +137,7 @@ export default {
 
     const getList = async () => {
 
+      
       // axios - get 통신 : 전체리스트
       const response = await getAllProductList();
       product_list.value = response.data;
